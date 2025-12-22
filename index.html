@@ -10,8 +10,8 @@
     <div id="gameContainer">
         <div id="crosshair"></div>
         
+        <!-- 主畫面 -->
         <div id="mainScreen" class="screen">
-            <!-- 科技感光點 -->
             <div class="tech-dots" id="techDots"></div>
             
             <!-- 左側機器手 -->
@@ -93,6 +93,7 @@
             <p class="instructions">按空格鍵或點擊開始按鈕開始遊戲</p>
         </div>
         
+        <!-- 遊戲選擇畫面 -->
         <div id="gameSelectionScreen" class="screen hidden">
             <div class="category-tabs">
                 <div class="category-tab active" data-category="all">所有遊戲</div>
@@ -105,10 +106,11 @@
             </div>
             
             <div class="content-display" id="contentDisplay">
-                <!-- 游戏内容将动态加载 -->
+                <!-- 遊戲內容將動態加載 -->
             </div>
         </div>
         
+        <!-- 難度選擇畫面 -->
         <div id="difficultyScreen" class="screen hidden">
             <h1 class="title">選擇難度</h1>
             <div id="easyButton" class="button">簡單</div>
@@ -121,6 +123,7 @@
             <p class="instructions">按ESC鍵暫停遊戲</p>
         </div>
         
+        <!-- 遊戲畫面 -->
         <div id="gameScreen" class="screen hidden">
             <canvas id="gameCanvas"></canvas>
             <div id="score">分數: 0</div>
@@ -133,7 +136,7 @@
             </div>
         </div>
         
-        <!-- 历史记录弹窗 -->
+        <!-- 歷史記錄彈窗 -->
         <div id="historyPopup">
             <div id="historyHeader">
                 <div id="historyTitle">歷史記錄</div>
@@ -181,7 +184,7 @@
             </div>
         </div>
         
-        <!-- ========== 生存射擊遊戲畫面 ========== -->
+        <!-- 生存射擊遊戲畫面 -->
         <div id="survivalGameScreen" class="survival-game-screen hidden">
             <div class="survival-game-container">
                 <!-- 主畫面 -->
